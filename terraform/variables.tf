@@ -4,7 +4,7 @@ variable "resource_group_name" {
 
 variable "location" {
   description = "Location of the resource"
-  default = "West Europe"
+  default     = "West Europe"
 }
 
 variable "application_name" {
