@@ -3,7 +3,8 @@
 ## 📁 Repository Structure
 
 ```
-├── .pkr.hcl             # Packer template using Ansible  
+├── .pkr.hcl             # Packer template using .hcl
+├── ansible.pkr.hcl      # Packer template with ansible using .hcl  
 ├── ansible/             # Playbooks and roles for configuration  
 ├── clean.sh             # Cleanup script for the image (waagent)  
 ├── terraform/  
