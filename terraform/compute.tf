@@ -63,7 +63,7 @@ resource "azurerm_storage_account" "stor" {
 }
 
 data "azurerm_image" "customngnix" {
-  name                = "linuxWeb-0.0.1"
+  name                = "linuxWeb-v0.0.1"
   resource_group_name = "rg_images"
 }
 
